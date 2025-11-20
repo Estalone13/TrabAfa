@@ -7,12 +7,13 @@ ID: C02-CT01
 **Passos**: DADO que iniciamos uma nova venda
 E adicionamos 5 itens ao carrinho
 E aplicamos um desconto em 1 item
-E selecionamos forma de pagamento 'cartão 70%' e 'dinheiro 30%'
+E selecionamos forma de pagamento Cartao ou dinheiro 
 QUANDO clicarmos em 'Finalizar Venda'
 ENTÃO a venda deve ser gravada e o caixa atualizado corretamente.
 Critérios de Aceitação: Os valores totais e tipos de pagamento devem ser refletidos na tabela
 caixa e itcaixa.
-## video:
+
+## video:https://jam.dev/c/123b55a8-905c-4909-ab20-648eff3e471a
 
 
 
@@ -23,9 +24,10 @@ ID: C02-CT02
 Passos: DADO que iniciamos uma nova venda
 E não adicionamos nenhum produto
 QUANDO clicarmos em 'Finalizar Venda'
-ENTÃO deve ser exibida mensagem de erro 'Nenhum item adicionado'.
+ENTÃO deve ser exibida mensagem de erro 'O campo produto nao foi adicionado'.
 Critérios de Aceitação: A venda não deve ser registrada no banco.
-## video:
+
+## video:https://jam.dev/c/123b55a8-905c-4909-ab20-648eff3e471a
 
 
 
@@ -39,4 +41,7 @@ E aplicamos 50% de desconto em um item
 QUANDO clicarmos em 'Confirmar'
 ENTÃO o sistema deve recusar e exibir 'Desconto inválido'.
 Critérios de Aceitação: Nenhum desconto fora do limite deve ser aceito.
-## video:
+
+## video:https://jam.dev/c/123b55a8-905c-4909-ab20-648eff3e471a
+
+Ele aceita um tipo de desconto porem quando aplica o outro ele sai do sistema

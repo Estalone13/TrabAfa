@@ -23,7 +23,7 @@ Escolher arquivo com campos não mapeados
 Comportamento Esperado: Mensagem clara indicando erro de estrutura.
 Comportamento Obtido: Erro genérico sem detalhe.
 
-Evidência: Vídeo Jam.dev
+Evidência: 
 
 🐞 Bug 02: Venda com pagamento misto não salva corretamente
 ID	Descrição
@@ -44,7 +44,7 @@ Fechar venda
 Comportamento Esperado: Total correto e único registro em caixa.
 Comportamento Obtido: Duas entradas duplicadas no BD (itcaixa).
 
-Evidência: Vídeo Jam.dev
+Evidência: 
 
 🐞 Bug 03: Fechamento de caixa bloqueado com saldo zero
 ID	Descrição
@@ -54,7 +54,7 @@ Severidade: Média
 Prioridade: Média
 Status: Aberto
 
-Evidência: Vídeo Jam.dev
+Evidência: 
 
 🐞 Bug 04: Cadastro duplicado de clientes com mesmo CPF
 ID	Descrição
@@ -64,7 +64,7 @@ Severidade: Alta
 Prioridade: Alta
 Status: Aberto
 
-Evidência: Vídeo Jam.dev
+Evidência: 
 
 🐞 Bug 05: Atualização de limite de crédito não refletida no BD
 ID	Descrição
@@ -74,4 +74,4 @@ Severidade: Média
 Prioridade: Alta
 Status: Aberto
 
-Evidência: Vídeo Jam.dev
+Evidência:

@@ -1,16 +1,18 @@
+
 ## Cenário 04: Gestão de Clientes
 
 ## Caso de Teste: Cadastro e controle de crédito
-ID: C04-CT01
-**Descrição**: O sistema deve registrar clientes, dependentes e aplicar regras de crédito.
-**Pré-condições**: O módulo de Clientes deve estar disponível.
-**Passos**: DADO que cadastramos 6 clientes (PJ e PF)
-E adicionamos dependentes para 2 deles
-E habilitamos limite de crédito para 2 clientes
-QUANDO realizarmos compras acima do limite
-ENTÃO o sistema deve bloquear a compra automaticamente.
-Critérios de Aceitação: O cliente deve ser impedido de realizar compras acima do limite definido.
-## video:
+ ID:C04-CT01	   
+ **Descrição**: Cadastro básico deve ser salvo corretamente.                                                     
+**Pré-condições**:Nenhuma.
+ **Passos**:DADO que usuário clica em “Novo”                                          
+E preenche os campos obrigatórios
+QUANDO clicar em Salvar
+ENTÃO cliente deve aparecer na lista.
+
+Critérios de Aceitação:Cadastro salvo.                                           
+
+## video:https://jam.dev/c/b04a6c1f-204e-4eac-ada8-a72dbdaf9336
 
 
 ## Caso de Teste: Atualização de limite de crédito
@@ -23,7 +25,8 @@ QUANDO clicarmos em 'Salvar'
 ENTÃO o novo limite deve ser gravado e refletido nas próximas compras.
 Critérios de Aceitação: O valor alterado deve ser exibido corretamente no BD e nas telas de
 venda.
-## video:
+
+## video:https://jam.dev/c/9a1be683-a22a-4317-809e-f3a1fdf06536
 
 ## Caso de Teste: Cadastro duplicado de CPF/CNPJ
 ID: C04-CT03
@@ -34,4 +37,7 @@ E informamos CPF já existente
 QUANDO clicarmos em 'Salvar'
 ENTÃO o sistema deve exibir a mensagem 'CPF já cadastrado'.
 Critérios de Aceitação: Nenhum novo registro deve ser criado com dados duplicados.
-## video:
+
+## video:https://jam.dev/c/123b55a8-905c-4909-ab20-648eff3e471a
+
+ele aparece a mensagem porem deixa criar com o mesmo cpf 

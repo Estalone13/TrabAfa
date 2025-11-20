@@ -12,9 +12,9 @@
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do AfaSistemas            |
-| **E** preenchemos "Admin" no campo usuário                        |
-| **E** preenchemos "admin123" no campo senha                       |
+| **DADO** que estamos na página de login do Afa            |
+| **E** preenchemos "pablo.felipe" no campo usuário                        |
+| **E** preenchemos "Mudar@123" no campo senha                       |
 | **QUANDO** clicarmos no botão "Login"                             |
 | **ENTÃO** seremos redirecionados para o Dashboard do sistema      |
 
@@ -22,8 +22,8 @@
 | :-------------------------------------------------------------- |
 | O redirecionamento para o Dashboard deve ocorrer corretamente.  |
 
-https://jam.dev/c/62d5ea2f-f916-4f50-872a-0cae7aeac8fd
- 
+
+ ## video:https://jam.dev/c/ca065ce0-207e-495c-9fff-f3ad44520646
 
 ---
 
@@ -40,7 +40,7 @@ https://jam.dev/c/62d5ea2f-f916-4f50-872a-0cae7aeac8fd
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
+| **DADO** que estamos na página de login do Afa             |
 | **E** preenchemos "Admin" no campo usuário                        |
 | **E** preenchemos "senhaerrada" no campo senha                    |
 | **QUANDO** clicarmos no botão "Login"                             |
@@ -48,11 +48,11 @@ https://jam.dev/c/62d5ea2f-f916-4f50-872a-0cae7aeac8fd
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| A mensagem de erro \"Invalid credentials\" deve ser exibida.    |
+| A mensagem de erro deve ser exibida.    |
 
-https://jam.dev/c/6010b270-a494-4e23-b014-5f384be93aed
 
---- 
+
+ ## video:https://jam.dev/c/bf03c530-0de3-4180-87d8-a24f257c579f
 
 ### Caso de Teste 03: Tentativa de login com campos em branco.
 
@@ -66,7 +66,7 @@ https://jam.dev/c/6010b270-a494-4e23-b014-5f384be93aed
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
+| **DADO** que estamos na página de login do Afa              |
 | **E** deixamos os campos de usuário e senha em branco             |
 | **QUANDO** clicarmos no botão "Login"                             |
 | **ENTÃO** deve ser exibida a mensagem \"Required\" em ambos os campos |
@@ -75,4 +75,4 @@ https://jam.dev/c/6010b270-a494-4e23-b014-5f384be93aed
 | :-------------------------------------------------------------- |
 | Os campos obrigatórios devem exibir mensagens de validação.     |
 
-https://jam.dev/c/674e498a-9c94-4969-ba84-290a5d18b8df
+ ## video:https://jam.dev/c/71b8742b-4296-49ba-866a-1297838f0c76
